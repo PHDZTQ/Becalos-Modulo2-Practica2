@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guía de CSS Básico</title>
+    <link rel="stylesheet" href="./css/clase-8-grid.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="clase-1-introduccion-CSS.html">Clase 1</a></li>
+        <li><a href="clase-2-model-box.html">Clase 2</a></li>
+        <li><a href="starbucks.html">Starbucks</a></li>
+        <li><a href="clase-3-especifidad.html">Clase 3</a></li>
+        <li><a href="clase-4-flexbox.html">Clase 4</a></li>
+        <li><a href="clase-5-flexbox-repaso.html">Clase 5</a></li>
+        <li><a href="clase-6-posicionamiento.html">Clase 6</a></li>
+        <li><a href="clase-7-responsive.html">Clase 7</a></li>
+        <li><a href="clase-8-grid.html">Clase 8</a></li>
+      </ul>
+    </nav>
+
+    <h1>Guía de CSS Básico</h1>
+
+    <section class="ejemplo">
+      <h2>1. Grid Container</h2>
+      <p>
+        Un grid simple de 3 columnas usando <code>grid-template-columns</code>
+      </p>
+      <div class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+      </div>
+    </section>
+
+    <section class="ejemplo">
+      <h2>1. Grid con Líneas</h2>
+      <p>
+        Usando <code>grid-column</code> y <code>grid-row</code> para crear un
+        layout
+      </p>
+      <div class="grid-areas">
+        <div class="header">Encabezado</div>
+        <div class="sidebar">Barra lateral</div>
+        <div class="contenido">Contenido principal</div>
+        <div class="footer">Pie de página</div>
+      </div>
+    </section>
+  </body>
+</html>
